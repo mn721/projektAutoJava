@@ -7,8 +7,9 @@
 ## **Nazwa projektu**
 
 ### **Skład zespołu**
-- **Osoba 1** (imię, nazwisko, nr indeksu) 
-- **Osoba 2** *(jeśli dotyczy)*  
+- **Klaudia Sawicka 322962** 
+- **Konrad Matuszewski 322954**
+- **Mikołaj Nowacki 322957**  
 
 ---
 
