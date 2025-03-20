@@ -4,7 +4,7 @@
 > Każda osoba w zespole musi posiadać własne repozytorium z kodem projektu oraz plikiem raportu.
 > > Raport końcowy musi być dostarczony w formacie **PDF**.
 
-## **Nazwa projektu**
+## **Symulator kokpitu samochodowego**
 
 ### **Skład zespołu**
 - **Klaudia Sawicka 322962** 
