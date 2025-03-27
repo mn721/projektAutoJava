@@ -4,7 +4,11 @@
 > Każda osoba w zespole musi posiadać własne repozytorium z kodem projektu oraz plikiem raportu.
 > > Raport końcowy musi być dostarczony w formacie **PDF**.
 
-## **Symulator kokpitu samochodowego**
+## **Symulator samochodowy**
+Projekt będzie zawierał:
+- działający model samochodu, którym będzie można się poruszać po przygotowanym otoczeniu
+- UI ułatwiające poruszanie się po programie
+- testy jednostkowe
 
 ### **Skład zespołu**
 - **Klaudia Sawicka 322962** 
