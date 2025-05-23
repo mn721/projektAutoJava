@@ -1,20 +1,21 @@
 package com.auto;
 
 public class GameData {
-    private float averageSpeed;
-    private int driftPoints;
-    private float distanceTraveled;
+    private float CurrentSpeed;
+    private float AverageSpeed;
+    private int DriftPoints;
+    private float DistanceTraveled;
 
-    public float getAverageSpeed() { return averageSpeed; }
-    public void setAverageSpeed(float averageSpeed) { this.averageSpeed = averageSpeed; }
-    public int getDriftPoints() { return driftPoints; }
-    public void setDriftPoints(int driftPoints) { this.driftPoints = driftPoints; }
-    public float getDistanceTraveled() { return distanceTraveled; }
-    public void setDistanceTraveled(float distanceTraveled) { this.distanceTraveled = distanceTraveled; }
+    public float getCurrentSpeed() { return CurrentSpeed; }
+    public void setCurrentSpeed(float currentSpeed) { this.CurrentSpeed = currentSpeed; }
+    public int getDriftPoints() { return DriftPoints; }
+    public void setDriftPoints(int driftPoints) { this.DriftPoints = driftPoints; }
+    public float getDistanceTraveled() { return DistanceTraveled; }
+    public void setDistanceTraveled(float distanceTraveled) { this.DistanceTraveled = distanceTraveled; }
 
     @Override
     public String toString() {
-        return String.format("Obecna prędkość: %.2f km/h, Punkty driftu: %d, Dystans: %.2f m",
-                averageSpeed, driftPoints, distanceTraveled);
+        return String.format("Obecna prędkość: %.2f km/h, Średnia prędkość: %2f km/h, Punkty driftu: %d, Dystans: %.2f m",
+                CurrentSpeed, AverageSpeed, DriftPoints, DistanceTraveled);
     }
 }
