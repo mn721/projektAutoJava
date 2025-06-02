@@ -40,7 +40,7 @@ public class DataServer {
 
                 sendResponse(exchange, 200, "Dane odebrano pomyślnie");
             } catch (Exception e) {
-                e.printStackTrace();
+                e.fillInStackTrace();
                 sendResponse(exchange, 500, "Wystąpił błąd: " + e.getMessage());
             } finally {
                 exchange.close();
