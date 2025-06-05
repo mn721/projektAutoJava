@@ -1,7 +1,7 @@
 package com.auto;
 
-import org.testng.annotations.Test;
-import static org.testng.AssertJUnit.assertEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class GameDataTest {
 
@@ -31,7 +31,7 @@ class GameDataTest {
 
         String result = data.toString();
 
-        String expected = "Obecny bieg: Third, Obecna prędkość: 100.00 km/h, Średnia prędkość: 75.50 km/h, Dystans: 1500.00 m";
+        String expected = "Obecny bieg: Third, Obecna prędkość: 100,00 km/h, Średnia prędkość: 75,50 km/h, Dystans: 1500,00 m";
         assertEquals(expected, result);
     }
 }
